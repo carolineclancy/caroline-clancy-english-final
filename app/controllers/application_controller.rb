@@ -13,4 +13,19 @@ class ApplicationController < Sinatra::Base
   get '/' do
     erb :index
   end
+
+  get '/wuthering_heights' do
+
+    erb :wuthering_heights
+  end
+
+  get '/pride_and_prejudice' do
+
+    erb :pride_and_prejudice
+  end
+
+  get '/sources' do
+
+    erb :sources
+  end
 end
