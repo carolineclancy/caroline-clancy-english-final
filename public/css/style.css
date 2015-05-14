@@ -225,12 +225,12 @@ th {
     display: table-header-group;
   }
   tr,
-  img {
+/*  img {
     page-break-inside: avoid;
   }
   img {
     max-width: 100% !important;
-  }
+  }*/
   p,
   h2,
   h3 {
@@ -1116,9 +1116,9 @@ a:focus {
 figure {
   margin: 0;
 }
-img {
+/*img {
   vertical-align: middle;
-}
+}*/
 .img-responsive,
 .thumbnail > img,
 .thumbnail a > img,

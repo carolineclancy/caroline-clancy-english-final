@@ -24,8 +24,13 @@ class ApplicationController < Sinatra::Base
     erb :pride_and_prejudice
   end
 
-  get '/sources' do
+  get '/conclusion' do
 
-    erb :sources
+    erb :conclusion
+  end
+
+  get '/introduction' do
+
+    erb :intro
   end
 end
