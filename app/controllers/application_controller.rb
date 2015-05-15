@@ -1,6 +1,6 @@
 require './config/environment'
 require 'pry'
-
+require 'sinatra'
 class ApplicationController < Sinatra::Base
 
   configure do

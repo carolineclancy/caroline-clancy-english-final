@@ -1,4 +1,3 @@
-require 'sinatra'
 require './app/controllers/application_controller'
 
-run MyApp
+run ApplicationController
